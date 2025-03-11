@@ -3,15 +3,16 @@ This is the repository for CMSC 125 - Operating Systems Project, creating our ow
 
 Check this [guide](https://docs.google.com/document/d/1kUrzteYyx8auVWL5AXtdf-8Lij3zD1IXBRL9RHT7Ho8/edit?usp=sharing)
 
+### Setup venv
+```
+python3.10 -m venv venv
+source venv/bin/activate
+```
 
-### Install the following
-pip install Pillow
-pip install PyAudio
-pip install SpeechRecognition PyAudio 
-pip install opencv-python
-pip install noisereduce
-pip install numpy
-pip install wave
+### Install dependencies
+```
+pip install -r requirements.txt
+```
 
 # Process Control Block
 ### List of Process
